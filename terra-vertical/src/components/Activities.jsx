@@ -5,7 +5,7 @@ import airsoft from "../assets/airsoft.jpg";
 
 const Activities = () => {
   return (
-    <>
+    <section id="activities">
       <div className="w-full flex flex-col justify-center py-4 px-6">
         <h2 className="text-4xl font-bold text-center">Atividades</h2>
         <p className="text-center text-gray-600 mt-2">
@@ -75,7 +75,7 @@ const Activities = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
